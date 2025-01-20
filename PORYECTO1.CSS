@@ -1,0 +1,123 @@
+
+
+/* menu */
+.hor{
+display: flex;
+align-items: center;
+padding-left: 400px;
+border-radius: 10px;
+border:2px;
+border-color: black;
+}
+.ver{
+align-content: center;
+margin:0px;
+padding:20px;
+background-color: rgba(255, 255, 255, 0.952);
+font-family: 'Times New Roman', Times, serif;
+border: 2px;
+border-color: black;
+border-radius: 10px ;
+}
+#zzz{
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+    border: 2px;
+   border-color: black;
+   border-radius: 10px;
+}
+/* informacion */
+.hori{
+display: flex;
+margin-top: auto ;
+margin-left: 50px;
+margin-right: 50px;
+align-content: center;
+}
+.vert{
+    padding: auto;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.897);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* al lado de arriba y abajo */
+.noser{
+    padding-left: 40px;
+    align-content: center;
+    text-align: justify;    
+}
+/* arriba y abajo */
+.ser{
+    
+    margin: 40px;
+    text-align: justify;
+    
+}
+/* contenido */
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#pa{
+    padding-top: 50px;
+}
+h1{
+color: red;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+hr{
+    border: 0px;
+}
+h2{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(211, 2, 2);
+   
+   }
+h3{
+       font-family: 'Times New Roman', Times, serif;
+     color:rgb(211, 2, 2);
+   }
+h4{
+ padding: 0px;
+ margin: 0px;
+ color: rgb(211, 2, 2);
+   }
+.lol{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(211, 2, 2); 
+}
+/* fondo */
+body{
+    background-image:url(fondo.png);
+    background-size: cover;
+}
+ /* div de las paginas */
+.pag{
+    padding: 90px ;
+margin-top: auto ;
+margin-left: 150px;
+margin-right: 150px;
+align-content: center;
+background-color: rgba(255, 255, 255, 0.973);
+}
+
+/*agrandar img*/
+.imcor {
+    width: 300px;
+    height: 200px;
+    overflow: hidden; 
+}
+
+/* Estilo de la imagen */
+.imcor img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto cuando se pasa el mouse */
+.imcor:hover img {
+    transform: scale(0.8);
+}
